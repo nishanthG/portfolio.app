@@ -1,0 +1,115 @@
+.navigation {
+  display: inline-flexbox;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: 0rem;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(2, 2, 2, 0.753);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(228, 11, 101, 0.315);
+  cursor: pointer;
+}
+
+li {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-bar ul li:hover {
+  background-color: rgba(228, 11, 101, 0.89);
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  .nav-bar ul {
+    width: max-content;
+    float: none !important;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 1em;
+  }
+
+  .nav-bar li {
+    display: inline-flex;
+    padding: 8px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    right: 0;
+    visibility: hidden;
+  }
+
+  .nav-bar ul {
+    width: 7rem;
+    /* margin: 11rem 1rem 0 0; */
+  }
+
+  .nav-bar li {
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+}
+
+.nav-btn button {
+  background-color: rgba(2, 2, 2, 0.753);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid rgba(228, 11, 101, 0.315);
+  cursor: pointer;
+  color: white;
+  padding: 10px 1vw 0 1vw;
+}
+
+.nav-btn button:focus {
+  outline: none;
+}
+
+#rotate {
+  transform: rotate();
+  -webkit-transform:rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  right: -1vw;
+  position: fixed;
+  top: 50%;
+  z-index: 3;
+}
+
+#menu {
+  transform: rotate();
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  font-size: 2vw;
+}
+
+/* .nav-btn:hover + .nav-bar {
+  display: block;
+} */

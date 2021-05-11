@@ -1,0 +1,56 @@
+.app-footer {
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 2rem;
+}
+
+.fa-heart {
+  color: #e90606;
+}
+
+.fa-copyright {
+  color: rgb(128, 127, 127);
+}
+
+.react-icon {
+  margin-bottom: -2px;
+}
+
+.app-footer ul {
+  color: rgb(128, 127, 127);
+  vertical-align: middle;
+  padding-left: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-footer ul li {
+  display: inline-block;
+  font-size: 11px;
+  padding: 1px 2px 0;
+}
+
+.dev-name {
+  color: rgb(128, 127, 127);
+}
+
+@media screen and (max-width: 767px){
+    .app-footer{
+      height: auto;
+    }
+
+    .app-footer ul li {
+      font-size: 8px;
+    }
+
+    .heart-ul ul{
+      margin-bottom: 0;
+      padding-top: 2px;
+    }
+
+    .react-icon {
+      margin-bottom: -1px;
+    }
+}

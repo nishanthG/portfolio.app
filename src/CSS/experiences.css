@@ -1,0 +1,37 @@
+.experiences {
+  background-color: #f1edde;
+  padding: 5vw;
+  font-family: "Oswald", sans-serif;
+  max-width: 100%;
+  margin: 0;
+}
+
+.career {
+  padding: 2vw;
+}
+
+#oracle-logo {
+  width: 18vw;
+}
+
+#iitk-logo {
+  width: 30vw;
+  padding: 0 0 2vw 5vw;
+}
+
+.experiences hr {
+  border-color: #080304;
+  opacity: 0.1;
+  width: 30vw;
+  margin: 2vw auto 0;
+}
+
+.blockquote {
+  padding: 3vw 0 3vw 0;
+  margin-bottom: 0;
+}
+
+.designation p,
+.degree p {
+  padding: 2vw;
+}

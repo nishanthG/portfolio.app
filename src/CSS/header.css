@@ -1,0 +1,25 @@
+.app-header{
+    background-color: black;
+    height: 5em;
+}
+
+.app-header .desktop-logo{
+    width: 18em;
+    padding: 5px;
+}
+
+@media only screen and (max-width:767px){
+    .app-header .desktop-logo {
+        display: none;
+    }
+}
+
+.app-header .mobile-logo{
+    width: 5em;
+}
+
+@media  only screen and (min-width: 768px) {
+    .app-header .mobile-logo {
+        display: none;
+    }
+}
