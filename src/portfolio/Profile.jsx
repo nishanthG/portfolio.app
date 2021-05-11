@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../CSS/profile.css";
 import { RiCodeSFill, RiCodeSSlashFill } from "react-icons/ri";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile/profile.png";
 
 class Profile extends Component {
   render() {

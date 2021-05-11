@@ -1,0 +1,29 @@
+.abilities {
+  padding: 5vw;
+  font-family: "Oswald", sans-serif;
+  max-width: 100%;
+  margin: 0;
+  color: white;
+}
+
+.abilities hr {
+  border-color: #f7edf0;
+  opacity: 0.1;
+  width: 30vw;
+  margin: 2vw auto 0;
+}
+
+.skills {
+    padding: 2vw;
+  }
+
+.logo img {
+  height: 10rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .logo img {
+        height: 7rem;
+      }
+}

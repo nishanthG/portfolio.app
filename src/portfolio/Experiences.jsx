@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../CSS/experiences.css";
-import Oracle from "../assets/Oracle-big.png";
-import iitklogo from '../assets/iitklogo.png'
+import Oracle from "../assets/logos/Oracle-big.png";
+import iitklogo from "../assets/logos/iitklogo.png";
 
 class Experiences extends Component {
   render() {
@@ -40,7 +40,8 @@ class Experiences extends Component {
           <div className="col-lg-12">
             <blockquote class="blockquote text-center">
               <p className="mb-0">
-              My experiences have taught me a lot and I'm happy with my learnings, if not with what I went through to learn.
+                My experiences have taught me a lot and I'm happy with my
+                learnings, if not with what I went through to learn.
               </p>
               <footer className="blockquote-footer">
                 <cite title="Source Title">Ally Sheedy</cite>
@@ -64,7 +65,16 @@ class Experiences extends Component {
         <div className="row justify-content-md-center">
           <div className="col-lg-8">
             <p>
-              "This will always be the phase of my life I don't mind re-living. The experiences this place gives you, made me who I'm today. Interacting with one of the best minds in the country and being friends with few who still hold a special place in my heart, can't be replaced. The amount of pressure one goes through not only makes one a better person but also polishes one for the world awaiting. As they always say 'This place gives you freedom, also teaches you how not to misuse it'. The discipline that this place thought me will always be with me. I'm not only proud that I'm an alumini of this great institute but I'll always be in debt to it."
+              "This will always be the phase of my life I don't mind re-living.
+              The experiences this place gives you, made me who I'm today.
+              Interacting with one of the best minds in the country and being
+              friends with few who still hold a special place in my heart, can't
+              be replaced. The amount of pressure one goes through not only
+              makes one a better person but also polishes one for the world
+              awaiting. As they always say 'This place gives you freedom, also
+              teaches you how not to misuse it'. The discipline that this place
+              thought me will always be with me. I'm not only proud that I'm an
+              alumini of this great institute but I'll always be in debt to it."
             </p>
           </div>
         </div>
