@@ -33,7 +33,7 @@
   padding: 1rem;
 }
 
-.logo:hover {
+.logo:hover, .ide:hover {
   cursor: pointer;
 }
 

@@ -7,6 +7,8 @@ import SplashPage from "./SplashPage";
 import Profile from "./Profile";
 import Experiences from "./Experiences";
 import Abilities from "./Abilities";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 class PortfolioApp extends Component {
   render() {
@@ -18,6 +20,8 @@ class PortfolioApp extends Component {
         <Profile />
         <Experiences />
         <Abilities />
+        <Projects/>
+        <Contact/>
         <Footer />
       </div>
     );

@@ -20,7 +20,7 @@ class NavigationBar extends Component {
             <li onClick={() => this.handleClick("profile")}>Profile</li>
             <li onClick={() => this.handleClick("experiences")}>Experiences</li>
             <li onClick={() => this.handleClick("abilities")}>Abilities</li>
-            <li>Test4</li>
+            <li onClick={() => this.handleClick("projects")}>My work</li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,14 @@
+.contact {
+    padding: 5vw;
+    font-family: "Oswald", sans-serif;
+    max-width: 100%;
+    margin: 0;
+    color: white;
+  }
+  
+  .contact hr {
+    border-color: #f7edf0;
+    opacity: 0.1;
+    width: 30vw;
+    margin: 2vw auto 0;
+  }

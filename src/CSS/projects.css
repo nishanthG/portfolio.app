@@ -1,0 +1,18 @@
+.projects {
+  padding: 5vw;
+  font-family: "Oswald", sans-serif;
+  max-width: 100%;
+  margin: 0;
+  background-color: #f1edde;
+}
+
+.projects hr {
+  border-color: #080304;
+  opacity: 0.1;
+  width: 30vw;
+  margin: 2vw auto 0;
+}
+
+.my-work {
+    padding: 2vw;
+}
