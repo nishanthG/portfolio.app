@@ -13,17 +13,41 @@
   margin: 2vw auto 0;
 }
 
-.skills {
-    padding: 2vw;
-  }
+.skills,
+.tools {
+  padding: 2vw;
+}
+
+.content_img {
+  position: relative;
+  float: left;
+}
 
 .logo img {
-  height: 10rem;
+  height: 9rem;
   padding: 1rem;
 }
 
-@media only screen and (max-width: 768px){
-    .logo img {
-        height: 7rem;
-      }
+.ide img {
+  height: 8rem;
+  padding: 1rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+    height: 7rem;
+  }
+
+  .ide img {
+    height: 6rem;
+  }
+}
+
+.blockquote {
+  padding: 3vw 0 3vw 0;
+  margin-bottom: 0;
 }
