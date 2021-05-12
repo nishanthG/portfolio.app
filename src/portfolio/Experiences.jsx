@@ -40,8 +40,8 @@ class Experiences extends Component {
           <div className="col-lg-12">
             <blockquote class="blockquote text-center">
               <p className="mb-0">
-                My experiences have taught me a lot and I'm happy with my
-                learnings, if not with what I went through to learn.
+              “My experiences have taught me a lot and I'm happy with my
+                learnings, if not with what I went through to learn.”
               </p>
               <footer className="blockquote-footer">
                 <cite title="Source Title">Ally Sheedy</cite>
