@@ -39,7 +39,7 @@ body {
 #myName {
   font-family: "Allura", cursive;
   /* font-size: 3rem; */
-  font-size: 3vw;
+  font-size: 4vw;
   color: white;
 }
 
@@ -68,6 +68,19 @@ body {
   color: rgba(228, 11, 101, 0.89);
 }
 
+.coder {
+  font-family: monospace;
+  font-size: 2rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.coder #text{
+  font-size: 2vw;
+  font-weight: bold;
+  color: rgb(99, 247, 14);
+}
+
 @media screen and (max-width: 767px) {
   .introductionText {
     top: 20vw;
@@ -78,6 +91,15 @@ body {
   }
 
   .introductionText #myName {
-    font-size: 4vw;
+    font-size: 5vw;
+  }
+
+  .coder {
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+  }
+  
+  .coder #text{
+    font-size: 3vw;
   }
 }

@@ -1,14 +1,44 @@
 .contact {
-    padding: 5vw;
-    font-family: "Oswald", sans-serif;
-    max-width: 100%;
-    margin: 0;
-    color: white;
+  padding: 5vw;
+  font-family: "Oswald", sans-serif;
+  max-width: 100%;
+  margin: 0;
+  color: white;
+}
+
+.contact hr {
+  border-color: #f7edf0;
+  opacity: 0.1;
+  width: 30vw;
+  margin: 2vw auto 0;
+}
+
+.details{
+  padding: 2vw;
+}
+
+.details .pad,
+.contact-form {
+  padding: 3vw;
+}
+
+.contact {
+  padding-bottom: 5rem;
+}
+
+.details p svg {
+  margin-right: 10px;
+  font-size: 20px;
+  margin-bottom: -3px;
+}
+
+.details p a:hover{
+  text-decoration: none;
+  color: #00ffdd;
+}
+
+@media screen and (max-width:767px) {
+  .contact-form button{
+    float: none !important;
   }
-  
-  .contact hr {
-    border-color: #f7edf0;
-    opacity: 0.1;
-    width: 30vw;
-    margin: 2vw auto 0;
-  }
+}

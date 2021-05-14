@@ -14,7 +14,7 @@ class SplashPage extends Component {
         <div className='row'>
         <div className="introductionText col-lg-6 col-md-auto col-sm-auto">
           <p id="namasthe">Namasthe!</p>
-          <p id="myName">I'm Nishanth, I'm a programmer.</p>
+          <p id="myName">I'm Nishanth & I'm a <span className='coder'>&lt;<code id='text'>coder</code>&#47;&gt;</span></p>
         </div>
         <div className='swipe-text'>
           <p>get to know more about me</p>

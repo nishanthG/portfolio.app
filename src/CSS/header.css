@@ -15,7 +15,7 @@
 }
 
 .app-header .mobile-logo{
-    width: 5em;
+    width: 4em;
 }
 
 @media  only screen and (min-width: 768px) {

@@ -31,7 +31,3 @@
   display: -webkit-flex;
   flex-wrap: wrap;
 }
-
-.equal p, .details p{
-    font-family: 'Source Sans Pro', sans-serif;
-}

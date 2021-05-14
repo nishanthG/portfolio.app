@@ -6,7 +6,7 @@ import profile from "../assets/profile/profile.png";
 class Profile extends Component {
   render() {
     return (
-      <div className="container-fluid profile" id='profile'>
+      <div className="container-fluid profile" id="profile">
         <div className="profile-heading">
           <h2>Profile</h2>
           <p>
@@ -31,21 +31,6 @@ class Profile extends Component {
                 library. I am a Professional programmer who loves his job. I
                 love structure and order and I also stand for quality and love
                 spending time on fixing little details."
-              </p>
-            </div>
-            <div className="col-lg-10 details">
-              <h3>Details</h3>
-              <p>
-                <strong>Name: </strong>
-                Nishanth Gunupudi <br />
-                <strong>Age: </strong>
-                27 years
-                <br />
-                <strong>Mobile: </strong>
-                +91-8960419062
-                <br />
-                <strong>Location: </strong>
-                India
               </p>
             </div>
           </div>
