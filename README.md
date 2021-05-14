@@ -77,5 +77,10 @@ The app is mobile responsive - there is further scope to increase the UI like th
 
 The nav-bar is currently on top and with a fixed position - this needs to be relative with the colapse icon, can be made horizontal - currently it's vertical.
 
+Abilities Section: on hover - add the proficiency level for each skill.
+
 ### Funtionality
 The contact page <form> is currently HTML based - migrate to formik which offers better error-handling and API integration.
+
+### State Management
+nav-bar collapse logic currently runs in JS - it can be easily managed if Redux is implemented.

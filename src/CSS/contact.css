@@ -13,7 +13,8 @@
   margin: 2vw auto 0;
 }
 
-.details{
+.details,
+.contact-me {
   padding: 2vw;
 }
 
@@ -32,13 +33,13 @@
   margin-bottom: -3px;
 }
 
-.details p a:hover{
+.details p a:hover {
   text-decoration: none;
   color: #00ffdd;
 }
 
-@media screen and (max-width:767px) {
-  .contact-form button{
+@media screen and (max-width: 767px) {
+  .contact-form button {
     float: none !important;
   }
 }

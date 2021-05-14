@@ -2,6 +2,7 @@ import { Component } from "react";
 import "../CSS/contact.css";
 import { AiOutlineWhatsApp, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation, GoMail, GoMarkGithub } from "react-icons/go";
+import {IoLogoBitbucket} from "react-icons/io";
 import emailjs from 'emailjs-com';
 
 class Contact extends Component {
@@ -33,7 +34,15 @@ class Contact extends Component {
                   <GoMarkGithub />
                 </strong>
                 <a href="https://github.com/nishanthG">
-                  https://github.com/nishanthG
+                  github/nishanthG
+                </a>
+              </p>
+              <p>
+                <strong>
+                  <IoLogoBitbucket />
+                </strong>
+                <a href="https://bitbucket.org/nishanthg/">
+                bitbucket/nishanthg
                 </a>
               </p>
               <p>
@@ -41,7 +50,7 @@ class Contact extends Component {
                   <AiFillLinkedin />
                 </strong>
                 <a href="https://www.linkedin.com/in/gnishanth/">
-                  https://www.linkedin.com/in/gnishanth/
+                  linkedin/gnishanth
                 </a>
               </p>
               <p>
