@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Future scope
+
+### UI
+The app is mobile responsive - there is further scope to increase the UI like the variable font-sizes on different device screens.
+
+The nav-bar is currently on top and with a fixed position - this needs to be relative with the colapse icon, can be made horizontal - currently it's vertical.
+
+### Funtionality
+The contact page <form> is currently HTML based - migrate to formik which offers better error-handling and API integration.

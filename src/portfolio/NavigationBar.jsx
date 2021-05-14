@@ -32,7 +32,7 @@ class NavigationBar extends Component {
     var elmnt = document.getElementById(toElement);
     elmnt.scrollIntoView({
       behavior: "smooth",
-      block: "end",
+      block: "start",
       inline: "nearest",
     });
   };
