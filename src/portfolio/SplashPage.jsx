@@ -1,5 +1,5 @@
 import { Component } from "react";
-import video from '../assets/videos/video_kWlZlNm2.mp4'
+import video from '../assets/videos/video.mp4'
 import "../CSS/splashPage.css";
 import '../fonts/namasthe.ttf';
 import {TiArrowDownOutline} from 'react-icons/ti';
