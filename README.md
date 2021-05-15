@@ -72,6 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Future scope
 
+### About
+There is work yet to be done here - adding details about me.
+
 ### UI
 The app is mobile responsive - there is further scope to increase the UI like the variable font-sizes on different device screens.
 
