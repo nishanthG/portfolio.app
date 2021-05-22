@@ -6,7 +6,7 @@ import profile from "../assets/profile/profile.png";
 class Profile extends Component {
   render() {
     return (
-      <div className="container-fluid profile" id="profile">
+      <div className="container profile" id="profile">
         <div className="profile-heading">
           <h2>Profile</h2>
           <p>

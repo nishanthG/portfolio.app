@@ -1,3 +1,19 @@
+@import
+url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black !important;
+  --primary: rgb(100, 241, 6);
+  --secondary: turquoise;
+  font-family: Montserrat, "Poppins" !important;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +50,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.cursor {
+  margin-top: -12px;
+  margin-left: 10px;
+  -webkit-transform: scaleX(3);
+  transform: scaleX(3);
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  animation-duration: 1s;
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
